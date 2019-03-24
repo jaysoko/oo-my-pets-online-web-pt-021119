@@ -4,25 +4,25 @@ attr_accessor :name
 attr_reader :species
 
 def initialize(name, species="human")
-    @species = species
-    @name = name
-    @@all << self
+@species = species
+@name = name
+@@all << self
 end
 
 def self.all
-   @@all
+ @@all
 end
 
 def self.count
-   @@all.size
+  @@all.size
 end
 
 def self.reset_all
-   @@all.clear
+@@all.clear
 end
 
 def say_species
-  puts "I am a"
+  puts "I am a #{@species}."
 end
 
 
