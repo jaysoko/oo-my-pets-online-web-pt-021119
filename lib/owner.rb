@@ -61,7 +61,8 @@ def feed_fish
 end
 
 def sell_pets
- @pets.clear
+ @pets.each {|species,name_array| do
+     name_array.each {|name| name.mood = "nervous"}
+     end
+end 
 end
-end
-
