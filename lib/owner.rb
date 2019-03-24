@@ -61,6 +61,7 @@ def feed_fish
 end
 
 def sell_pets
+ @pets.clear
 end
 end
 
