@@ -32,7 +32,7 @@ end
 
 def buy_fish(fish)
 @fish = fish
-@fish = Fish.new(name)
+@fish = Fish.new(fish)
 @pets[:fishes] << @fish
 end
 end
