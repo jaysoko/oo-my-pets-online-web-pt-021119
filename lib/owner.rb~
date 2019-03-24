@@ -30,7 +30,7 @@ def pets
 @pets
 end
 
-def buy_fish
+def buy_pets
 end
 
 end
