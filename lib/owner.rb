@@ -35,5 +35,12 @@ def buy_fish(fish)
 @fish = Fish.new(fish)
 @pets[:fishes] << @fish
 end
+
+def buy_cat(cat)
+@cat = cat
+@cat = Cat.new(cat)
+@pets[:cats] << @cat
+end
+
 end
 
