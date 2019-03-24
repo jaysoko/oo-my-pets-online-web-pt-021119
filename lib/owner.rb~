@@ -49,7 +49,6 @@ def buy_dog(dog)
 end
 
 def walk_dogs
-@pets[:dogs].each {|x| x = "happy"}
 end
 
 end
