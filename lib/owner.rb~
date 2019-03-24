@@ -27,7 +27,6 @@ def say_species
 end
 
 def pets
-@pets
 end
 
 end
