@@ -50,6 +50,7 @@ end
 
 def walk_dogs
  @mood = "happy"
+ @mood
 end
 
 end
