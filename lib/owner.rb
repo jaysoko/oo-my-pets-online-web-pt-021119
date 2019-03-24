@@ -30,7 +30,10 @@ def pets
 @pets
 end
 
-def buy_fish
+def buy_fish(fish)
+@fish = fish
+@fish = Fish.new(name)
+end
 end
 
 end
