@@ -1,6 +1,6 @@
 class Owner
 @@all = []
-attr_accessor :name, :pets, :mood
+attr_accessor :name, :pets
 attr_reader :species
 
 def initialize(name, species="human")
@@ -49,7 +49,6 @@ def buy_dog(dog)
 end
 
 def walk_dogs
-@dog.mood="happy"
 end
 
 end
