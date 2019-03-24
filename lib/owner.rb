@@ -21,11 +21,8 @@ def self.reset_all
    @@all.clear
 end
 
-def self.say_species
-@species
+def say_species
+   @species
 end
-
-
-
 
 end
