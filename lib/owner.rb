@@ -22,7 +22,7 @@ def self.reset_all
 end
 
 def self.say_species
-  puts "I am a #{@species}."
+@species
 end
 
 
