@@ -21,8 +21,8 @@ def self.reset_all
    @@all.clear
 end
 
-def say_species
-   puts "I am a #{@species}."
+def self.say_species
+ @species
 end
 
 end
