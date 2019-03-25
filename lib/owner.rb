@@ -69,6 +69,7 @@ end
 
 def list_pets
 fish_count = @pets[:fishes].size
+puts "I have #{@pets[:fishes].size} fish"
 
 end
 end
