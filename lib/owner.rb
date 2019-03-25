@@ -73,4 +73,3 @@ fish_count = @pets[:fishes].size
 end
 end
 
-end
