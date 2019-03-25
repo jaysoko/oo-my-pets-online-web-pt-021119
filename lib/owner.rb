@@ -20,7 +20,7 @@ end
 
 def self.reset_all
    @@all.clear
-end
+endG
 
 def say_species
    "I am a #{@species}."
@@ -69,7 +69,7 @@ end
 
 def list_pets
 fish_count = @pets[:fishes].size
-puts "I have #{fish_count} fish"
+"I have #{fish_count} fish."
 
 end
 end
