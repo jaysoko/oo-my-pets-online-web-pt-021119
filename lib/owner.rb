@@ -68,8 +68,8 @@ def sell_pets
 end
 
 def list_pets
-@pets.each do |species,name_array|
-   puts "I have #{name_array.size} #{species}."
+fish_count = @pets[:fishes].size
+
 end
 end
 
