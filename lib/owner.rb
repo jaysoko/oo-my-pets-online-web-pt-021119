@@ -64,5 +64,6 @@ def sell_pets
  @pets.each do |species,name_array|
      name_array.each {|name| name.mood = "nervous"}
      end 
+  @pets.clear
 end
 end
