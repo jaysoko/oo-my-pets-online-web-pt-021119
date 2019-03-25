@@ -20,7 +20,7 @@ end
 
 def self.reset_all
    @@all.clear
-endG
+end
 
 def say_species
    "I am a #{@species}."
@@ -73,4 +73,3 @@ def list_pets
 end
 
 end
-
