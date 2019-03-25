@@ -68,8 +68,8 @@ def sell_pets
 end
 
 def list_pets
-fish_count = @pets[:fishes].size
-"I have #{fish_count} fish."
+   fish_count = @pets[:fishes].size
+   "I have #{fish_count} fish."
 end
 
 end
