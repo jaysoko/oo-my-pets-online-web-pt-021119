@@ -65,3 +65,4 @@ def sell_pets
      name_array.each {|name| name.mood = "nervous"}
      end 
 end
+end
